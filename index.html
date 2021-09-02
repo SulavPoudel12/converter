@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.png">
+    <title>Unit Converter</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <select name="mains" id="mains">
+            <option value="length1">Length</option>
+            <option value="temp2">Temperature</option>
+            <option value="mass3">Mass</option>
+            
+        </select>
+    </div>
+
+
+    <div id="tempfull">
+        <div class="selection">
+            <label for="tempselect" id="op">Input:</label>
+            <select name="temp" id="tempselect">
+                <option value="Cl" id="Cl">Celcius</option>
+                <option value="FR" id="FR">Fahrenheit</option>
+                <option value="KV" id="KV">Kelvin</option>
+
+            </select>
+        </div>
+
+
+        <div class="hihello">
+            <div class="in">
+
+                <label for="incel">Celcius</label>
+                <input type="number" placeholder="0" id="incel" readonly>
+            </div>
+            <div class="in">
+                <label for="infer">Fahrenheit</label>
+                <input type="number" placeholder="0" id="infer" readonly>
+
+            </div>
+            <div class="in">
+
+                <label for="inkelvin">Kelvin</label>
+                <input type="number" placeholder="0" id="inkelvin" readonly>
+            </div>
+
+        </div>
+    </div>
+    
+    <div id="lengthfull">
+    <div  class="selection">
+        <label for="lengthselect" id="op">Input:</label>
+        <select name="length" id="lengthselect" >
+            <option value="meter" id="meter">Meter</option>
+            <option value="km" id="km">Kilometer</option>
+            <option value="CM" id="CM">Centimeter</option>
+            <option value="Feet" id="Feet">Feet</option>
+            <option value="Inch" id="Inch">Inch</option>
+        </select>
+      </div>
+    
+      
+      <div class="hihello">
+        <div class="in">
+            
+            <label for="inmeter">Meter</label>
+            <input type="number" placeholder="0" id="inmeter" readonly >
+        </div>
+        <div class="in">
+            <label for="inkm">Kilometer</label>
+            <input type="number" placeholder="0" id="inkm" readonly >
+      
+        </div>
+        <div class="in">
+            
+            <label for="incm">Centimeter</label>
+            <input type="number" placeholder="0" id="incm" readonly >
+        </div>
+        <div class="in">
+            <label for="infeet">Feet</label>
+            <input type="number" placeholder="0" id="infeet" readonly >
+            
+        </div>
+        <div class="in">
+            <label for="ininch">Inch</label>
+            
+            <input type="ininch" placeholder="0" id="ininch" readonly >
+          </div>
+      </div>
+    </div>
+    
+    <div id="massfull">
+        <div class="selection">
+            <label for="massselect" id="op">Input:</label>
+            <select name="mass" id="massselect">
+                <option value="KG" id="KG">Kilogram</option>
+                <option value="GR" id="GR">Gram</option>
+                <option value="PD" id="PD">Pound</option>
+                <option value="OU" id="OU">Ounce</option>
+    
+            </select>
+        </div>
+    
+    
+        <div class="hihello">
+            <div class="in">
+    
+                <label for="inkg">Kilogram</label>
+                <input type="number" placeholder="0" id="inkg" readonly>
+            </div>
+            <div class="in">
+                <label for="ingr">Gram</label>
+                <input type="number" placeholder="0" id="ingr" readonly>
+    
+            </div>
+            <div class="in">
+    
+                <label for="inpd">Pound</label>
+                <input type="number" placeholder="0" id="inpd" readonly>
+            </div>
+            <div class="in">
+    
+                <label for="inou">Ounce</label>
+                <input type="number" placeholder="0" id="inou" readonly>
+            </div>
+    
+        </div>
+    </div>
+</body>
+
+
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+</html>
